@@ -1,0 +1,25 @@
+    1  ls
+    2  git add identificacao.txt
+    3  git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+    4  git push
+    5  mkdir A139460
+    6  cd 139460
+    7  cd A139460
+    8  pwd
+    9  echo "Teste de LI 2026/2027" > README.md
+   10  cd ..
+   11  pwd
+   12  history > cmdstask2.txt
+   13  git add A139460/README.md cmdstask2.txt
+   14  git commit -m "2.ª tarefa concluída"
+   15  git push origin main
+   16  dddddgit clone https://github.com/sveyne/LABINFO-03-26-27.git
+   17  git pull origin main
+   18  cp index.html disciplina.html
+   19  git add disciplina.html
+   20  git commit -m "Cria disciplina.html a partir de index.html"
+   21  git push origin main
+   22  git pull origin main
+   23  history > meusComandosCodespace.txt
+   24 pwd
+   25 ls
