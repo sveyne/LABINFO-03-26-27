@@ -1,0 +1,115 @@
+NOME: Rafael Louro
+NMEC: 139460
+
+Comando: pwd
+Resultaod: /workspaces/LABINFO-03-26-27
+
+1.ª TAREFA;
+git add identificacao.txt
+git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+git push
+
+
+
+2.ª TAREFA;
+mkdir A139460
+
+cd A139460
+pwd (RESULTADO: /workspaces/LABINFO-03-26-27/A139460)
+
+echo "Teste de LI 2026/2027" > README.md
+
+cd ..
+pwd (RESULTADO: /workspaces/LABINFO-03-26-27)
+
+history > cmdstask2.txt
+
+git add A139460/README.md cmdstask2.txt
+git commit -m "2.ª tarefa concluída"
+git push origin main
+
+
+3.ª TAREFA;
+(no CMD windows)	cd Desktop/tempTeste
+
+					git clone https://github.com/sveyne/LABINFO-03-26-27.git
+					
+					cd LABINFO-03-26-27
+					
+					git add index.html
+					git commit -m "3.ª tarefa concluída"
+					git push origin main
+					
+					
+4.ª TAREFA;
+git add index.html
+git commit -m "4.ª tarefa: adiciona navegação e conteúdo à página inicial"
+git push origin main
+
+
+5.ª TAREFA;
+	PARTE A (codespace)
+		git pull origin main
+		cp index.html disciplina.html
+
+		git add disciplina.html
+		git commit -m "Cria disciplina.html a partir de index.html"
+		git push origin main
+	
+	PARTE B (localmente)
+		git pull origin main
+		
+		git add disciplina.html
+		git commit -m "5.ª tarefa cumprida"
+		git push origin main
+		
+		
+		
+6.ª TAREFA;
+	PARTE A (codespace)
+		git pull origin main
+		
+		history > meusComandosCodespace.txt
+		cat meusComandosCodespace.txt
+		
+		git add meusComandosCodespace.txt
+		git commit -m "Tarefa 6: regista o histórico do Codespace"
+		git push origin main
+		
+	PARTE B (local)
+		git pull origin main
+		
+		Get-History | Select-Object -ExpandProperty CommandLine | Set-Content -Encoding utf8 meusComandosLocais.txt
+		Get-Content meusComandosLocais.txt
+		
+		git add meusComandosLocais.txt A-139460-notas.txt
+		git commit -m "Tarefa 6 cumprida"
+		git push origin main
+		
+		
+--- Comandos do computador ---
+cd Desktop/tempTeste
+git clone https://github.com/sveyne/LABINFO-03-26-27.git
+cd LABINFO-03-26-27
+git add index.html
+git commit -m "3.ª tarefa concluída"
+git push origin main
+git add index.html
+git commit -m "3.ª tarefa concluída"
+git push origin main
+git add index.html
+git add index.html
+git commit -m "3.ª tarefa concluída"
+git config --global user.name "sveyne"
+git commit -m "3.ª tarefa concluída"
+git config --global user.email "rafaelouro15@gmail.com"
+git commit -m "3.ª tarefa concluída"
+git push origin main
+git add index.html
+git commit -m "4.ª tarefa: adiciona navegação e conteúdo à página inicial"
+git push origin main
+git pull origin main
+git add disciplina.html
+git commit -m "5.ª tarefa cumprida"
+git push origin main
+git pull origin main

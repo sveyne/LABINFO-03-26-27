@@ -1,0 +1,25 @@
+﻿cd Desktop/tempTeste
+git clone https://github.com/sveyne/LABINFO-03-26-27.git
+cd LABINFO-03-26-27
+git add index.html
+git commit -m "3.ª tarefa concluída"
+git push origin main
+git add index.html
+git commit -m "3.ª tarefa concluída"
+git push origin main
+git add index.html
+git add index.html
+git commit -m "3.ª tarefa concluída"
+git config --global user.name "sveyne"
+git commit -m "3.ª tarefa concluída"
+git config --global user.email "rafaelouro15@gmail.com"
+git commit -m "3.ª tarefa concluída"
+git push origin main
+git add index.html
+git commit -m "4.ª tarefa: adiciona navegação e conteúdo à página inicial"
+git push origin main
+git pull origin main
+git add disciplina.html
+git commit -m "5.ª tarefa cumprida"
+git push origin main
+git pull origin main
